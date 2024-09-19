@@ -1,0 +1,39 @@
+video{
+    display: block;
+    margin: auto;
+    border: solid palegreen;
+    background-color: rgb(30,30,30);
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(30,30,30);
+    overflow: scroll;
+}
+.text{
+    color: palegreen;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+audio{
+    width: 75%;
+    background-color: rgb(30,30,30);
+    border: solid palegreen;
+    border-radius: 5px;
+}
+canvas{
+    border: hidden;
+    border-radius: 5px;
+    background-color: rgb(75,75,75);
+}
+rect{
+    border: solid black;
+    fill: rgb(86, 140, 132);
+    border-width: 5px;
+}
+svg{
+    display: block;
+    margin: auto;
+}
+ellipse{
+    fill: lightgreen;
+}
