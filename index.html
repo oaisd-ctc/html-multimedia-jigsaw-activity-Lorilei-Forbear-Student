@@ -22,7 +22,17 @@
         </iframe>
         <br>
         <h2 class="text">Canvas Element</h2>
-        <canvas>Your browser doesn't support the canvas tag.</canvas>
+        <canvas id="myCanvas">
+            <script>
+                const canvas = document.getElementById("myCanvas");
+                const ctx = canvas.getContext("2d");
+                
+                ctx.fillStyle="dodgerblue"
+                ctx.fillRect(0,0, 200,110);
+                </script>
+                <!--I couldn't find any other way to put a rectangle in a canvas, so I used javascript I edited from W3School.-->
+            Your browser doesn't support the canvas tag.
+        </canvas>
         <br>
         <h2 class="text">SVG Element</h2>
         <svg>
