@@ -37,3 +37,8 @@ svg{
 ellipse{
     fill: lightgreen;
 }
+iframe{
+    border: solid cyan;
+    border-width: 2px;
+    border-radius: 5px;
+}
